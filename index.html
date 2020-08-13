@@ -18,12 +18,15 @@
     <script src="https://use.fontawesome.com/ba840f2e53.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Hello, world!</title>
+    
+    <!-- font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand font-sizing-title" href="#">Imam Fahreza</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,16 +42,21 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
             <a class="nav-link active" href="#"
-              >Home <span class="sr-only">(current)</span></a
+              ><i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i> <span class="sr-only">(current)</span></a
             >
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">
+              <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+            <a class="nav-link" href="#">
+              <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+            </a>
             <a
               class="nav-link disabled"
               href="#"
               tabindex="-1"
               aria-disabled="true"
-              >Disabled</a
+              >
+              <i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a
             >
           </div>
         </div>
@@ -59,8 +67,8 @@
     <div class="row header-img">
       <div class="col-sm-8 header-left">
         <div class="container text-header">
-          <h1>Hi ! This is Imam</h1>
-          <h2>humanist | engineer | web developer</h2>
+          <h1 class="font-sizing-title">Hi ! This is Imam</h1>
+          <h2 class="font-sizing-subtitle">humanist | engineer | web developer</h2>
           <button type="button about-me" class="btn btn-outline-secondary">
             About me
           </button>
@@ -78,13 +86,13 @@
       </div>
       <div class="col-sm-8 header-left">
         <div class="container">
-          <h1>About me</h1>
-          <h2>Who Am I</h2>
+          <h1 class="font-sizing-title">About me</h1>
+          <h2 class="font-sizing-subtitle">Who Am I</h2>
           <p>
             I'm a freshgraduate with mechanical engineering degree. Oil & gas,
             mining, and manufacture enthusiast who have good sense of business
             and IT knowledge proven by my track record for working on those
-            three fields of expertise.
+            fields of expertise.
           </p>
           <p>
             Prior to my current role, I worked in Thiess as graduate mechanical.
@@ -94,7 +102,7 @@
             Now I'm focusing on improving my skill in web and mobile
             development.
           </p>
-          <div>Skills</div>
+          <div class="font-sizing-title">Skills</div>
         </div>
         <div class="container">
           <div class="box-skill">
@@ -140,15 +148,15 @@
     </div>
     <!-- end of background -->
     <!-- experience -->
-    <div class="row resume header-left">
+    <div class="row resume header-left background-paralax1">
       <div class="container">
         <div class="col-sm12">
-          <h1>My Resume</h1>
-          <h2>My awesome story</h2>
+          <h1 class="font-sizing-title">My Resume</h1>
+          <h2 class="font-sizing-subtitle">My awesome story</h2>
         </div>
       </div>
 
-      <div class="container header-left resume-list">
+      <div class="container header-left resume-list background-paralax1">
         <div class="box-inside-resume">
           <h5 class="resume-title">Universitas Diponegoro</h5>
           <h6 class="resume-sub-title">
@@ -156,7 +164,7 @@
           </h6>
           <p>
             Focusing on structure & design, I made an improvement for Orcaflex
-            (Oil pipe analysis) based on oceanographic condition of Indonesia
+            (Oil pipe analysis software) based on oceanographic condition of Indonesia
             for my final thesis.
           </p>
         </div>
@@ -198,7 +206,7 @@
     <!-- organizational experience -->
     <div class="row background-paralax-1">
       <div class="container header-left">
-        <div style="text-align: left; font-size: 40px;">
+        <div class="font-sizing-title" style="text-align: left; font-size: 40px;">
           My awesome college experiences
         </div>
         <ul style="list-style: none;">
@@ -237,31 +245,32 @@
     </div>
     <!-- end of organizational experience -->
     <!-- achievement -->
-    <div class="row">
-      <div class="container">
-        <div style="text-align: left; font-size: 40px;">My achievements</div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="container achievement header-left">
-        <div class="box-achievement">
-          <img
-            style="max-width: 100%; max-height: 100%;"
-            src="./image/award1.png"
-            alt=""
-          />
-          <p>Best N1 Adjudicator, ESP Open Debate Universitas Brawijaya 2017</p>
+      <div class="row background-paralax2">
+        <div class="container">
+          <div class="font-sizing-title" style="text-align: left; font-size: 40px;">My achievements</div>
         </div>
-        <div class="box-achievement">
-          <img
-            style="max-width: 100%; max-height: 100%;"
-            src="./image/award1.png"
-            alt=""
-          />
-          <p>
-            Best N1 Adjudicator, SWRD Debate Universitas Kristen Satya Wacana
-            2016
-          </p>
+      </div>
+      <div class="row background-paralax2">
+        <div class="container achievement header-left">
+          <div class="box-achievement">
+            <img
+              style="max-width: 100%; max-height: 100%;"
+              src="./image/award1.png"
+              alt=""
+            />
+            <p>Best N1 Adjudicator, ESP Open Debate Universitas Brawijaya 2017</p>
+          </div>
+          <div class="box-achievement">
+            <img
+              style="max-width: 100%; max-height: 100%;"
+              src="./image/award1.png"
+              alt=""
+            />
+            <p>
+              Best N1 Adjudicator, SWRD Debate Universitas Kristen Satya Wacana
+              2016
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -269,7 +278,7 @@
     <!-- keep in touch -->
     <div class="row header-left">
       <div class="container header-left">
-        <div class="row header-left">Keep in touch with me</div>
+        <div class="row header-left font-sizing-title">Keep in touch with me</div>
         <div class="row header-left">
           <div class="col-sm-8 header-left">
             <form>
@@ -309,25 +318,25 @@
             </form>
           </div>
           <div class="col-sm-4 header-left contact-holder">
-            <div class="contact-box header-left">
+            <div class="contact-box">
               <p>
                 Location<br />
                 Kalimantan Timur
               </p>
             </div>
-            <div class="contact-box header-left">
+            <div class="contact-box">
               <p>
                 Email<br />
                 imamfahr@gmail.com
               </p>
             </div>
-            <div class="contact-box header-left">
+            <div class="contact-box">
               <p>
                 Phone<br />
                 08115530***
               </p>
             </div>
-            <div class="contact-box header-left">
+            <div class="contact-box">
               <p>
                 Website<br />
                 imamf.netlify.com
