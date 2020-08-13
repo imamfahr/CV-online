@@ -18,7 +18,7 @@
 .img-avatar2{
     max-width: 80%;
     max-height: 80%;
-    margin-top: 150px;
+    margin-top: 100px;
     margin-left: 60px;
 }
 
@@ -29,9 +29,7 @@
   border: solid black;
 }
 
-/* .background{
-    height: 400px;
-} */
+
 
 .text-header {
   justify-content: center;
