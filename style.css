@@ -68,26 +68,53 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    height: 500px;
+    
 }
 
-.resume-list{
-    display: flex;
-    justify-content: space-around;
-    height: 600px;
-}
 
 .box-inside-resume{
     width: 400px;
     height: 190px;
     background-color: salmon;
     position: relative;
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center */
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    padding: 1.5%;
 }
 
 
-.resume-title.resume-sub{
-    /* sjdiash */
+li{
+    margin-top: 20px;
+    border:1px solid grey;
+    text-align: center;
+}
+
+.achievement{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-achievement{
+    margin-top: 35px;
+    border:solid black;
+    height: 300px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.contact-box{
+    width: 200px;
+    height: 80px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-around;
 }
 
